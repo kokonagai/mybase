@@ -1,11 +1,1 @@
-/* ------------
-
-css table of contents
-
-#GLOBAL css
-    #BODY
-    #TYPOGRAPHY
-    #LINKS
-    ---------------------------*/
-body {
-  background-color: #89c0d3; }
+body{font-family:"Roboto", sans-serif;font-size:100%;line-height:1.4}h1,h2,h3{font-family:"Playfair Display", serif;margin:.5em 0;font-weight:400}h1{font-size:2.5em;line-height:1}h2{font-size:2em;line-height:1.1}h3{font-size:1.5em;line-height:1.2}p{max-width:35em}blockquote{max-width:20em;font-style:italic;color:grey}.mainhead{font-family:"Playfair Display", serif;font-size:5em;color:#b81a71;margin-bottom:0}.subhead{font-family:"Roboto", sans-serif;font-weight:400;color:rgba(0, 0, 0, 0.5);margin-bottom:1em}

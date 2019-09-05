@@ -1,0 +1,54 @@
+/* BODY */
+
+body {
+    font-family: $body-fontfamily;
+    font-size: 100%;
+    line-height: 1.4;
+}
+
+/* HEADINGs */
+
+h1, h2, h3 {
+    font-family: $heading-fontfamily;
+    margin: .5em 0;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 2.5em;
+    line-height: 1;
+}
+h2 {
+    font-size: 2em;
+    line-height: 1.1;
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1.2;
+}
+
+p {
+    max-width: 35em; 
+}
+
+blockquote {
+    max-width: 20em;
+    font-style: italic;
+    color: grey;
+}
+
+/* TYPE SPECIMEN */
+
+.mainhead {
+    font-family: $heading-fontfamily;
+    font-size: 5em;
+    color: $color-accent;
+    margin-bottom: 0;
+}
+
+.subhead {
+    font-family: $body-fontfamily;
+    font-weight: 400;
+    color: $color-midgrey;
+    margin-bottom: 1em;
+}

@@ -1,11 +1,13 @@
 // variables
 
-$mybodybackground: rgb(137, 192, 211);
-
+$mybodybackground: rgb(103, 188, 216);
+$heading-fontfamily: 'Playfair Display', serif;
+$body-fontfamily: 'Roboto', sans-serif;
+$color-accent: rgb(184, 26, 113);
+$color-midgrey: rgba(0,0,0,.5);
 
 // IMPORT PARTIALS
-@import 'partials/toc';
 
-body {
-    background-color: $mybodybackground;
-} 
+@import 'partials/toc';
+@import 'partials/typography';
+
