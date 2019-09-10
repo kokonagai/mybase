@@ -1,13 +1,17 @@
 // variables
 
-$mybodybackground: rgb(103, 188, 216);
-$heading-fontfamily: 'Playfair Display', serif;
+$heading-fontfamily: poynter-oldstyle-display, serif;
 $body-fontfamily: 'Roboto', sans-serif;
-$color-accent: rgb(184, 26, 113);
-$color-midgrey: rgba(0,0,0,.5);
 
+// COLORS
+$color-text-body: rgba(0,0,0,.85);
+$color-accent: rgb(255, 164, 27);
+$color-midgrey: rgba(0,0,0,.5);
+$color-links: #069;
+$color-links-dark: #035;
+ 
 // IMPORT PARTIALS
 
 @import 'partials/toc';
 @import 'partials/typography';
-
+@import 'partials/buttons';
