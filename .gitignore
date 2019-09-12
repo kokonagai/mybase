@@ -1,0 +1,6 @@
+
+# CONFIG FILESe
+*.config
+
+# MAC FILES
+.DS_Store
