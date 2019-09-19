@@ -5,7 +5,7 @@ $body-fontfamily: 'Roboto', sans-serif;
 
 // COLORS
 $color-text-body: rgba(0,0,0,.85);
-$color-accent: rgb(255, 164, 27);
+$color-accent: rgb(108, 129, 252);
 $color-midgrey: rgba(0,0,0,.5);   
 $color-links: rgb(88, 219, 249);
 $color-links-dark: #035;
@@ -22,3 +22,4 @@ $breakpoint-large: 1250px;
 @import 'partials/buttons'; 
 @import 'partials/media';
 @import 'partials/layout';
+@import 'partials/grid'; 
