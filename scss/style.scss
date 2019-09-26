@@ -5,10 +5,11 @@ $body-fontfamily: 'Roboto', sans-serif;
 
 // COLORS
 $color-text-body: rgba(0,0,0,.85);
-$color-accent: rgb(176, 73, 155);
+$color-accent: rgb(233, 143, 64);
 $color-midgrey: rgba(0,0,0,.5);   
 $color-links: rgb(88, 219, 249);
 $color-links-dark: #035;
+$color-hero-bg: rgb(117, 167, 96);
 
 //BREAKPOINTS
 $breakpoint-small: 768px;
@@ -23,3 +24,4 @@ $breakpoint-large: 1250px;
 @import 'partials/media';
 @import 'partials/layout';
 @import 'partials/grid'; 
+@import 'partials/structure';
