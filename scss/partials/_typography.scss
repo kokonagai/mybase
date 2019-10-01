@@ -33,6 +33,37 @@ p {
     max-width: 35em; 
 }
 
+
+h3.sectionhead {
+    font-size: $body-fontfamily;
+    text-align: center;
+    line-height: 1;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+.sectionhead:after {
+    display: block;
+    content: "";
+    width: 120px;
+    border: 3px solid $color-accent;
+    margin: 1em auto 6em auto;
+}
+
+.meta {
+    font-size: .8em;
+    color: $color-midgrey;
+    text-align: center;
+    text-transform: uppercase;
+
+
+}
+
+p.meta {
+   max-width: 100%;
+} 
+
+
 /* Links */
 a {color: $color-links;}
 a:hover { color: $color-links-dark;}

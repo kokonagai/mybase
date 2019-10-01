@@ -32,12 +32,16 @@
         }
 }
 
+section {
+    padding: 2em 4em;
+}
+
 
 /* HERO SECTION */
 
 .hero {
     background-color: $color-hero-bg;
-    padding: 10em 1em;
+    padding: 6em 1em;
     text-align: center;
     p{
         margin-left: auto;
